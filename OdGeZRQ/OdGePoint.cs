@@ -81,7 +81,6 @@ namespace OdGeZRQ
 
             odGePoint2D = new OdGePoint2d(10, 10);
             resultPoint2D = odGePoint2D.setToSum(odGePoint2D, new OdGeVector2d(20, 20));
-
         }
     }
 }

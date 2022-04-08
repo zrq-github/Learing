@@ -8,5 +8,6 @@ public class Program
     {
         System.Console.WriteLine("****测试OdGePoint****");
         OdGePoint.TestOdGePoint();
+        OdGeLine.TestOdGeLine();
     }
 }
