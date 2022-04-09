@@ -7,7 +7,7 @@ using Teigha.Core;
 
 namespace OdGeZRQ
 {
-    internal class OdGePoint
+    internal class TOdGePoint
     {
         OdGePoint2d GePoint2D;
         OdGePoint3d GePoint3D;

@@ -7,7 +7,8 @@ public class Program
     public static void Main()
     {
         System.Console.WriteLine("****测试OdGePoint****");
-        OdGePoint.TestOdGePoint();
-        OdGeLine.TestOdGeLine();
+        TOdGePoint.TestOdGePoint();
+        TOdGeLine.TestOdGeLine();
+        TOdGePanel.TestOdGePlane();
     }
 }
