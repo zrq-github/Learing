@@ -38,16 +38,28 @@ namespace OdGeZRQ
             Console.WriteLine($"点在面的投影");
             OdGePoint3d odGePoint3D = new OdGePoint3d(30, 30, 30);
             resultPoint3D = odGePlane_z0.closestPointTo(odGePoint3D);
-            if(odGePlane_z0.project(odGePoint3D, resultPoint3D))
+            if (odGePlane_z0.project(odGePoint3D, resultPoint3D))
             {
 
             }
 
 
             Console.WriteLine($"线在面的投影-zrq");
+            odGePlane_z0 = new OdGePlane(new OdGePoint3d(0, 0, 0), new OdGeVector3d(0, 0, 1));
             OdGeLine3d odGeLine3D = new OdGeLine3d(new OdGePoint3d(0, 0, 0), new OdGeVector3d(1, 1, 1));
-            OdGeVector3d projectDirection = new OdGeVector3d(1,1,1);
+            OdGeVector3d projectDirection = new OdGeVector3d(1, 1, 1);
             OdGeEntity3d projectOdGeLine3d = odGeLine3D.orthoProject(odGePlane_z0);
+            if (projectOdGeLine3d is OdGeLine3d)
+            {
+
+            }
+
+            OdGeLineSeg3d odGeLineSeg3D = new OdGeLineSeg3d(new OdGePoint3d(0, 0, 0), new OdGePoint3d(10, 10, 10));
+            OdGeEntity3d projectOdGeLineSeg3D = odGeLineSeg3D.orthoProject(odGePlane_z0);
+            if(projectOdGeLineSeg3D is OdGeLineSeg3d)
+            {
+
+            }
 
         }
     }
