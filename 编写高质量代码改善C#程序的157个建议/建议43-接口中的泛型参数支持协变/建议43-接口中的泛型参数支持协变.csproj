@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>建议43_接口中的泛型参数支持协变</RootNamespace>
+  </PropertyGroup>
+
+</Project>
