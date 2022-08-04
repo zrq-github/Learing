@@ -1,0 +1,33 @@
+﻿<Window x:Class="建议66_WIn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:建议66_WIn"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Button x:Name="button"
+                Content="线程异常捕获"
+                Click="button_Click"
+                HorizontalAlignment="Left"
+                Margin="140,85,0,0"
+                VerticalAlignment="Top"
+                Width="105" />
+        <Button x:Name="button1"
+                Content="线程异常不捕获"
+                HorizontalAlignment="Left"
+                Click="button1_Click"
+                Margin="140,116,0,0"
+                VerticalAlignment="Top" />
+        <Button x:Name="button2"
+                Content="异常传递到主线程"
+                Click="button2_Click"
+                HorizontalAlignment="Left"
+                Margin="140,146,0,0"
+                VerticalAlignment="Top" />
+
+    </Grid>
+</Window>
