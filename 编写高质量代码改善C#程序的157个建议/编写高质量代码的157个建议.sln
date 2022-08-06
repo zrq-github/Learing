@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "建议65", "建议65\建议
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "建议65_Win", "建议65_Win\建议65_Win.csproj", "{16A0D2FB-6590-4996-B0A1-CF5D2360CA0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "建议66_WIn", "建议66_WIn\建议66_WIn.csproj", "{6F9BB803-E043-4D35-BC60-DB528912770A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "建议66_WIn", "建议66_WIn\建议66_WIn.csproj", "{6F9BB803-E043-4D35-BC60-DB528912770A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "建议69", "建议69\建议69.csproj", "{08BD3304-0F90-4419-B919-56A943443334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "建议69", "建议69\建议69.csproj", "{08BD3304-0F90-4419-B919-56A943443334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "建议71", "建议71\建议71.csproj", "{8269CE4D-6324-4394-A7F8-0C42E20FCC71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{08BD3304-0F90-4419-B919-56A943443334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08BD3304-0F90-4419-B919-56A943443334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08BD3304-0F90-4419-B919-56A943443334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8269CE4D-6324-4394-A7F8-0C42E20FCC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8269CE4D-6324-4394-A7F8-0C42E20FCC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8269CE4D-6324-4394-A7F8-0C42E20FCC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8269CE4D-6324-4394-A7F8-0C42E20FCC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
