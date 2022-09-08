@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Learing"
+		}
+	],
+	"settings": {
+		"editor.renderWhitespace": "all"
+	},
+	"extensions": {
+		"recommendations": [
+			"GitHub.vscode-pull-request-github"
+		]
+	}
+}
